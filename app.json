@@ -3,7 +3,11 @@
     "name": "constat rapide",
     "slug": "constat-rapide",
     "icon": "./assets/icons/CUY.png",
-    "platforms": ["ios", "android", "web"],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "web": {
       "bundler": "metro",
       "output": "single",
@@ -24,7 +28,8 @@
           "cameraPermission": "The app accesses your camera to let you take photos of your documents."
         }
       ],
-      "expo-font"
+      "expo-font",
+      "expo-audio"
     ]
   }
 }
