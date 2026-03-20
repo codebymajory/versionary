@@ -20,7 +20,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 import "./src/global.css";
 
-import DecrivezAccidentPage from "./src/pages/DecrivezAccidentPage";
+import CarteRosePage from "./src/pages/CarteRosePage";
 
 export const AppContext = createContext();
 const Stack = createStackNavigator();
@@ -168,7 +168,7 @@ export default function App() {
       <View style={styles.container}>
         <NavigationContainer>
           <Stack.Navigator initialRouteName="home_screen" screenOptions={{ headerShown: false }}>
-            <Stack.Screen name="home_screen" component={DecrivezAccidentPage} />
+            <Stack.Screen name="home_screen" component={CarteRosePage} />
           </Stack.Navigator>
         </NavigationContainer>
 
